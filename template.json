@@ -1,0 +1,27 @@
+{
+  "package": {
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.11.4",
+      "@testing-library/react": "^11.1.0",
+      "@testing-library/user-event": "^12.1.10",
+      "web-vitals": "^1.0.1",
+      "cookie-parser": "~1.4.4",
+      "debug": "~2.6.9",
+      "express": "~4.16.1",
+      "http-errors": "~1.6.3",
+      "jade": "~1.11.0",
+      "morgan": "~1.9.1"
+    },
+    "scripts": {
+      "server":"node backend/bin/www",
+      "client":"cd frontend && react-scripts start",
+      "server-with-client":"concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+    },
+    "devDependencies": {
+      "concurrently": "^5.3.0"
+    },
+    "eslintConfig": {
+      "extends": ["react-app", "react-app/jest"]
+    }
+  }
+}

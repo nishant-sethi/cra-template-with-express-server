@@ -1,0 +1,31 @@
+{
+  "name": "cra-template-with-express",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "express"
+  ],
+  "description": "A base for Create React App with express server.",
+  "main": "template.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nishant-sethi/cra-template-with-express-server.git",
+    "directory": "packages/cra-template"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "bugs": {
+    "url": "https://github.com/nishant-sethi/cra-template-with-express-server/issues"
+  },
+  "files": [
+    "template",
+    "template.json",
+    "README.md"
+  ],
+  
+  "author": "Nishant Sethi"
+}
