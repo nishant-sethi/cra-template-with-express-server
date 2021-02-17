@@ -1,6 +1,6 @@
 {
   "name": "cra-template-with-express",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "react",
     "create-react-app",
@@ -26,6 +26,5 @@
     "template.json",
     "README.md"
   ],
-  
   "author": "Nishant Sethi"
 }
