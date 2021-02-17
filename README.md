@@ -2,7 +2,7 @@
 
 This is the base template for creating Simple React app with express server by extending [Create React App](https://github.com/facebook/create-react-app) webpack configurations.
 
-If you don't specify a template (for example, `--template with-express-server`), Simple React app will be created by default.
+If you don't specify a template (for example, `--template with-express`), Simple React app will be created by default.
 
 For more information, please refer to:
 
