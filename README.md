@@ -10,15 +10,20 @@ For more information, please refer to:
 - [User Guide](https://create-react-app.dev) – How to develop apps bootstrapped with Create React App.
 
 # Install
-`npx create-react-app app --template with-express-server `
+
+`npx create-react-app <your-app-name> --template with-express `
 
 # Command
-At your root directory, run the following commands:
-- `Run Server` - <b>npm run server</b> or <b>yarn run server</b>
-- `Run Client` - <b>npm run client</b> or <b>yarn run client</b>
-- `Run Server with Client` - <b>npm run server-with-client</b> or <b>yarn run server-with-client</b>
+
+<b>Don't do yanr start. Instead, refer to the following commands.</b>
+Navigate to `your-project` by `cd your-project` and run the following commands:
+
+- To `Run Server` - <b>npm run server</b> or <b>yarn run server</b>
+- To `Run Client` - <b>npm run client</b> or <b>yarn run client</b>
+- To `Run Server with Client` - <b>npm run server-with-client</b> or <b>yarn run server-with-client</b>
 
 # Development
+
 - For developing frontend app, go to the frontend folder using `cd frontend` command and continue your development as you would do for your traditional frontend app.
 - For developing backend app, go to the backend folder using `cd backend` command and continue your development as you would do for your traditional backend app.
 - To view frontend app, go to [http://localhost:3000](http://localhost:3000)

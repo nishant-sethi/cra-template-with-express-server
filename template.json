@@ -13,6 +13,7 @@
       "morgan": "~1.9.1"
     },
     "scripts": {
+      "start":"concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
       "server":"node backend/bin/www",
       "client":"cd frontend && react-scripts start",
       "server-with-client":"concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
